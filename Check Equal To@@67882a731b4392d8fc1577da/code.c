@@ -5,7 +5,7 @@ int main(){
     int b;
     scanf("%i",&b);
     if(a==b){
-        printf("Equal");
+        printf("True");
     }
     else{
         printf("False");
