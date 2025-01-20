@@ -7,6 +7,8 @@ int main(){
     scanf("%i",&b);
     char c[20];
     scanf("%s", &c);
-    printf("Name: %s \\n ",a);
+    printf("Name: %s",a);
+    printf("Age: %i",b);
+    printf("Hobby: %s",c);
     return 0;
 }
