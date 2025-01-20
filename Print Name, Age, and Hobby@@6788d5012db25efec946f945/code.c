@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main(){
-    char a[];
+    char a[20];
     scanf("%s", &a);
     int b;
     scanf("%i",&b);
-    char c[];
+    char c[20];
     scanf("%s", &c);
     printf("Name: %s \\n ",a);
     return 0;
