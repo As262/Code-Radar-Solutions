@@ -2,10 +2,10 @@
 
 int main(){
     int a;
-    int b;
     scanf("%i",a);
+    int b;
     scanf("%i",b);
     int c = a + b;
-    printf("%i", c);
+    printf("Sum: %i", c);
     return 0;
 }
