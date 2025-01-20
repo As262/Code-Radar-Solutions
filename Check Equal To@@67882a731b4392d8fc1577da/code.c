@@ -5,10 +5,10 @@ int main(){
     int b;
     scanf("%i",&b);
     if(a==b){
-        printf("Equal")
+        printf("Equal");
     }
     else{
-        printf("False")
+        printf("False");
     }
     return 0;
 }
