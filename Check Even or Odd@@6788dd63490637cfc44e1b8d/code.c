@@ -2,7 +2,7 @@
 int main(){
     int a;
     scanf("%i",&a);
-    if(a%%2){
+    if(a%2){
         printf("True");
     }
     else{
