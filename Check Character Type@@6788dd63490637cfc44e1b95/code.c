@@ -3,7 +3,7 @@
 int main() {
     char a;
     scanf("%c",&a);
-    if(isaplha(a)){
+    if(isalpha(a)){
     if(a=='a'||a=='e'||a=='o'||a=='i'||a=='u'||a=='A'||a=='E'||a=='O'||a=='U'||a=='I'){
         printf("Vowel");
     }
@@ -11,7 +11,7 @@ int main() {
         printf("Consonant");
     }
     }
-    else if(isdiigt(a)){
+    else if(isdigit(a)){
         printf("Digit");
     }
     else{
