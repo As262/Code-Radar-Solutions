@@ -2,6 +2,11 @@
 int main{
     int a;
     scanf("%i",&a);
-    printf("%u",~a);
+    if(a&1){
+    printf("Set\n");
+    }
+    else{
+        printf("Not Set\n");
+    }
     return 0;
 }
