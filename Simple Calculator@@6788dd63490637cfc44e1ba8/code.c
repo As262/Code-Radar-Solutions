@@ -17,7 +17,7 @@ int main(){
             printf("%i",r);
             break;
         case '*':
-            if(b!=0){
+            if(x!=0){
                 printf("Error");
             }
             else{
