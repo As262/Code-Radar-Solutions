@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main(){
-    int a,b;
+    float a,b;
     char c;
     scanf("%i",&a);
     scanf("%d",&b);
     scanf("%c",&c);
-    int x = a*b;
-    int y = a/b;
-    int z = a+ b;
-    int r = a-b;
+    float x = a*b;
+    float y = a/b;
+    float z = a+ b;
+    float r = a-b;
     switch(c){
         case '+':
             printf("%i",z);
@@ -19,9 +19,9 @@ int main(){
         case '*':
             printf("%d",x);
             break;
-        // case '/':
-        //     printf("%d",y);
-        //     break;
+        case '/':
+            printf("%d",y);
+            break;
     }
     return 0;
 }
