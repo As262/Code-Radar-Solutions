@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 int main(){
     float a,b;
     char c;
@@ -17,7 +18,7 @@ int main(){
             printf("%i",r);
             break;
         case '*':
-            if(x!=0){
+            if(x==0){
                 printf("error");
             }
             else{
