@@ -14,7 +14,7 @@ int main(){
             printf("%i",x);
             break;
         case '/':
-            printf("%f",y);
+            printf("%.2f",y);
             break;
         case '+':
             printf("%i",z);
