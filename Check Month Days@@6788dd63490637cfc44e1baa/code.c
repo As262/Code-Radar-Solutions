@@ -30,7 +30,7 @@ int main(){
         case 9:
         printf("30");
         break;
-        case 10;
+        case 10:
         printf("31");
         break;
         case 11;
