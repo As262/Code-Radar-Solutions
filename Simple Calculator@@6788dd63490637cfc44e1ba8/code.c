@@ -27,7 +27,7 @@ int main(){
         }
         case '/':
         if (y==0){
-            printf("error");
+            printf("error\n");
             break;
         }
         else{
@@ -35,7 +35,7 @@ int main(){
             break;
         }
         default:
-            printf("error");
+            printf("error\n");
     }
     return 0;
 }
