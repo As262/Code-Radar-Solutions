@@ -18,13 +18,13 @@ int main(){
             printf("%i",r);
             break;
         case '*':
-            if(x==0){
-                printf("error");
-            }
-            else{
+            // if(x==0){
+            //     printf("error");
+            // }
+            // else{
             printf("%i",x);
             break;
-            }
+            
         case '/':
             printf("%i",y);
             break;
