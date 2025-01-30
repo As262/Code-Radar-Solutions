@@ -10,17 +10,17 @@ int main(){
     int z = a+ b;
     int r = a-b;
     switch(c){
-        case '*':
-            printf("%i",x);
-            break;
-        case '/':
-            printf("%d",y);
-            break;
         case '+':
             printf("%i",z);
             break;
         case '-':
-            printf("%i",r);
+            printf("%d",r);
+            break;
+        case '*':
+            printf("%d",x);
+            break;
+        case '/':
+            printf("%d",y);
             break;
     }
     return 0;
