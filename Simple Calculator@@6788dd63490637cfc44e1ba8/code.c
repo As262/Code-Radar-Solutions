@@ -21,7 +21,7 @@ int main(){
             printf("%i",x);
             break;
         case '/':
-        if (y==0){
+        if (b==0){
             printf("error\n");
         }
         else{
