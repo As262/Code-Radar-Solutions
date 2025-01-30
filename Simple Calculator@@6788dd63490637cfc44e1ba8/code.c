@@ -8,16 +8,16 @@ int main(){
     int z = a+ b;
     int r = a-b;
     switch(c){
-        case *:
+        case '*':
         printf("%i",a*b);
         break;
-        case /:
+        case '/':
         printf("%i",a/b);
         break;
-        case +:
+        case '+':
         printf("%i", a+b);
         break;
-        case -:
+        case '-':
         printf("%i",a-b);
         break;
     }
