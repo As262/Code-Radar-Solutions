@@ -19,9 +19,9 @@ int main(){
         case '*':
             printf("%d",x);
             break;
-        case '/':
-            printf("%d",y);
-            break;
+        // case '/':
+        //     printf("%d",y);
+        //     break;
     }
     return 0;
 }
