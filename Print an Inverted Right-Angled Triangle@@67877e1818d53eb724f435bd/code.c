@@ -5,7 +5,7 @@ int main() {
     scanf("%d", &a);
     while (a > 0) { 
         for (int j = a--; j > 0; j--) { 
-            putchar('*');
+            putchar('* ');
         }
         putchar('\n');
     }
