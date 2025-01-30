@@ -6,7 +6,7 @@ int main(){
     scanf("%d",&b);
     scanf("%c",&c);
     int x = a*b;
-    float y = a/b;
+    int y = a/b;
     int z = a+ b;
     int r = a-b;
     switch(c){
@@ -14,7 +14,7 @@ int main(){
             printf("%i",x);
             break;
         case '/':
-            printf("%.2f",y);
+            printf("%d",y);
             break;
         case '+':
             printf("%i",z);
