@@ -4,7 +4,7 @@ int main(){
     char c;
     scanf("%f",&a);
     scanf("%f",&b);
-    scanf("%c",&c);
+    scanf(" %c",&c);
     int x = a*b;
     int y = a/b;
     int z = a+b;
