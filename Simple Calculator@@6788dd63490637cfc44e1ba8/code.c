@@ -6,30 +6,30 @@ int main(){
     scanf("%f", &b);
     scanf(" %c", &c);  // Note the space before %c
     
-    float x = a * b;
-    float y = a / b;
-    float z = a + b;
-    float r = a - b;
+    int x = a * b;
+    int y = a / b;
+    int z = a + b;
+    int r = a - b;
 
     switch(c) {
         case '+':
-            printf("%.2f", z);
+            printf("%i", z);
             break;
         case '-':
-            printf("%.2f", r);
+            printf("%i", r);
             break;
         case '*':
-            printf("%.2f", x);
+            printf("%i", x);
             break;
         case '/':
             if (b != 0) {
-                printf("%.2f", y);
+                printf("%i", y);
             } else {
-                printf("Error! Division by zero.\n");
+                printf("error\n");
             }
             break;
         default:
-            printf("Invalid operator.\n");
+            printf("error\n");
     }
 
     return 0;
