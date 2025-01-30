@@ -5,22 +5,22 @@ int main(){
     scanf("%f",&a);
     scanf("%f",&b);
     scanf(" %c",&c);
-    float x = a*b;
-    float y = a/b;
-    float z = a+ b;
-    float r = a-b;
+    int x = a*b;
+    int y = a/b;
+    int z = a+ b;
+    int r = a-b;
     switch(c){
         case '+':
-            printf("%f",z);
+            printf("%i",z);
             break;
         case '-':
-            printf("%f",r);
+            printf("%i",r);
             break;
         case '*':
-            printf("%f",x);
+            printf("%i",x);
             break;
         case '/':
-            printf("%f",y);
+            printf("%i",y);
             break;
     }
     return 0;
