@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int a,b;
+    float a,b;
     char c;
     scanf("%f",&a);
     scanf("%f",&b);
@@ -18,7 +18,7 @@ int main(){
             break;
         case '*':
             if(x!=0){
-                printf("Error");
+                printf("error");
             }
             else{
             printf("%i",x);
@@ -28,7 +28,7 @@ int main(){
             printf("%i",y);
             break;
         default:
-            printf("Error");
+            printf("error");
     }
     return 0;
 }
