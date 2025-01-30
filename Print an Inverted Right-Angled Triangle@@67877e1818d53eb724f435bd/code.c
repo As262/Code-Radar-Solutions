@@ -1,12 +1,13 @@
 #include <stdio.h>
-int main(){
+
+int main() {
     int a;
-    scanf("%i",&a);
-    for(int i=a;i>=0;i--){
-        for(int j= 0;j<i;j++){
-            printf("*");
+    scanf("%d", &a); // Using %d for integer input
+    while (a > 0) {  // Use a single loop instead of two nested loops
+        for (int j = a--; j > 0; j--) { 
+            putchar('*'); // Faster than printf for single characters
         }
-        printf("\n");
+        putchar('\n'); // Faster than printf for new lines
     }
     return 0;
 }
