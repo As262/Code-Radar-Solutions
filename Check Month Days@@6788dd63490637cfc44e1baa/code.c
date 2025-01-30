@@ -31,7 +31,7 @@ int main(){
         printf("30");
         break;
         case 10;
-        printf("31")
+        printf("31");
         break;
         case 11;
         printf("30");
