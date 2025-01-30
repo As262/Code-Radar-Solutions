@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
-    float a,b;
-    float c;
+    int a,b;
+    int c;
     scanf("%i",&a);
     scanf("%d",&b);
     scanf("%c",&c);
@@ -14,7 +14,7 @@ int main(){
             printf("%i",x);
             break;
         case '/':
-            printf("%i",y);
+            printf("%f",y);
             break;
         case '+':
             printf("%i",z);
