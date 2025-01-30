@@ -6,7 +6,7 @@ int main(){
     scanf("%d",&b);
     scanf("%c",&c);
     int x = a*b;
-    int y = a/b;
+    float y = a/b;
     int z = a+ b;
     int r = a-b;
     switch(c){
