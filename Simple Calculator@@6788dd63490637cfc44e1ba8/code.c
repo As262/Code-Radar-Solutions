@@ -7,7 +7,7 @@ int main(){
     scanf(" %c",&c);
     int x = a*b;
     int y = a/b;
-    int z = a+ b;
+    int z = a+b;
     int r = a-b;
     switch(c){
         case '+':
@@ -22,6 +22,8 @@ int main(){
         case '/':
             printf("%i",y);
             break;
+        default:
+            printf("error");
     }
     return 0;
 }
