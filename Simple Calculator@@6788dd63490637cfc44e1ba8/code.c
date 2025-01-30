@@ -23,7 +23,7 @@ int main(){
             printf("%i",y);
             break;
         default:
-            printf("error");
+            printf("Error");
     }
     return 0;
 }
