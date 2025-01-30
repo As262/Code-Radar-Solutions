@@ -19,7 +19,7 @@ int main(){
         break;
         case -:
         printf("%i",a-b);
-        break
+        break;
     }
     return 0;
 }
