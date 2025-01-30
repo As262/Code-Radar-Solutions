@@ -17,8 +17,13 @@ int main(){
             printf("%i",r);
             break;
         case '*':
+            if(b!=0){
+                printf("Error");
+            }
+            else{
             printf("%i",x);
             break;
+            }
         case '/':
             printf("%i",y);
             break;
