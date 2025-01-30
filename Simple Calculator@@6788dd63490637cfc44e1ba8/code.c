@@ -2,8 +2,8 @@
 int main(){
     float a,b;
     char c;
-    scanf("%i",&a);
-    scanf("%d",&b);
+    scanf("%f",&a);
+    scanf("%f",&b);
     scanf("%c",&c);
     float x = a*b;
     float y = a/b;
