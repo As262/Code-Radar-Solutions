@@ -11,16 +11,16 @@ int main(){
     float r = a-b;
     switch(c){
         case '+':
-            printf("%i",z);
+            printf("%f",z);
             break;
         case '-':
-            printf("%d",r);
+            printf("%f",r);
             break;
         case '*':
-            printf("%d",x);
+            printf("%f",x);
             break;
         case '/':
-            printf("%d",y);
+            printf("%f",y);
             break;
     }
     return 0;
