@@ -3,8 +3,6 @@
 int main() {
     int a, i;
     int isPrime = 1;
-
-    printf("Enter a number: ");
     scanf("%d", &a);
 
     if (a <= 1) {
@@ -19,10 +17,9 @@ int main() {
     }
 
     if (isPrime) {
-        printf("%d is a prime number.\n", a);
+        printf("Prime");
     } else {
-        printf("%d is not a prime number.\n", a);
+        printf("Not Prime", a);
     }
-
     return 0;
 }
