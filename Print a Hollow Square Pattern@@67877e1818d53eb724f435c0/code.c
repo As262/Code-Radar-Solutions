@@ -2,14 +2,15 @@
 int main(){
     int a;
     scanf("%i",&a);
-        for (int i = 0; i < a; i++) {
-        for (int j = 0; j < a; j++) {
-            if (i == 0 || i == a - 1 || j == 0 || j == a - 1) {
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            if (i == 0 || i == n - 1 || j == 0 || j == n - 1) {
                 printf("*");
             } else {
                 printf(" ");
             }
         }
+        printf("\n");
+    }
     return 0;
-        }
 }
