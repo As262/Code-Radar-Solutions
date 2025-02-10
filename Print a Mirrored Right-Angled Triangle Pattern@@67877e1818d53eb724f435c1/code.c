@@ -4,7 +4,7 @@ int main(){
     scanf("%i",&a);
     if(a=1){
         printf("*");
-        break
+        break;
     }
     else{
         for(int i=0;i<a;i++){
