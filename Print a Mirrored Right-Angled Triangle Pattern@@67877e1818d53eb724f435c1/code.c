@@ -7,9 +7,9 @@ int main(){
     }
     else{
         for(int i=0;i<a;i++){
-            printf(" ")
+            printf(" ");
             for(int j=0;j<=i;j++){
-                printf(" *")
+                printf(" *");
             }
         }
     }
