@@ -7,9 +7,11 @@ int main(){
     }
     else if(a!=1){
         for(int i=1;i<a;i++){
-            printf(" ");
-            for(int j=0;j<=2*i -1;j++){
-                printf(" *");
+            for(int j=a;j>=i;j){
+                printf(" ");
+            }
+            for (int k=1;k<=i;k++){
+                printf("*");
             }
             printf("\n");
         }
