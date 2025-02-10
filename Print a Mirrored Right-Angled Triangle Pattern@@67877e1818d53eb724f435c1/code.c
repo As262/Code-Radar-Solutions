@@ -2,7 +2,7 @@
 int main(){
     int a;
     scanf("%i",&a);
-    if(a=1){
+    if(a==1){
         printf("*");
     }
     else if(a!=1){
