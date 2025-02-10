@@ -6,8 +6,8 @@ int main(){
         printf("*");
     }
     else if(a!=1){
-        for(int i=1;i<a;i++){
-            for(int j=a;j>=i;j--){
+        for(int i=1;i<=a;i++){
+            for(int j=a;j>i;j--){
                 printf(" ");
             }
             for (int k=1;k<=i;k++){
