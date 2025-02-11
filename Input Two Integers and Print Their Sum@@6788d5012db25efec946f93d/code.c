@@ -1,11 +1,6 @@
-#include <stdio.h>
-
+#include<stdio.h>
 int main(){
-    int a;
-    scanf("%i",&a);
-    int b;
-    scanf("%i",&b);
-    int c = a + b;
-    printf("Sum: %i", c);
-    return 0;
+    int a,b;
+    scanf("%i %i",&a,&b);
+    printf("%i",a +b);
 }
