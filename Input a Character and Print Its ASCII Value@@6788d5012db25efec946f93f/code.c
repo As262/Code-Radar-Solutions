@@ -1,8 +1,6 @@
-#include <stdio.h>
-
+#include<stdio.h>
 int main(){
-    char n;
-    scanf("%c", &n);
-    printf("ASCII Value: %i", n);
-    return 0;
+    char a;
+    scanf("%c",&a);
+    printf("ASCII Value: %i",a);
 }
