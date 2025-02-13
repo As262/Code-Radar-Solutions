@@ -4,7 +4,7 @@ int main(){
     int b;
     char c[99];
     scanf("%s %i %s",&a,&b,&c);
-    printf("Name: %s"a);
-    printf("Age: &i",b);
-    printf("Hobby: %s",c);
+    printf("Name: %s\n"a);
+    printf("Age: %i\n",b);
+    printf("Hobby: %s\n",c);
 }
