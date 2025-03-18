@@ -4,7 +4,7 @@ int main(){
     if (a==1){
         printf("*");
     }
-    else{
+    else if(a!=0){
         for(int i=1;i<=a;i++){
             for(int j=a;j>i;j--){
                 printf(" ");
