@@ -1,19 +1,15 @@
 #include<stdio.h>
 int main(){
     int a;
-    if (a==1){
-        printf("*");
-    }
-    else if(a!=0){
-        for(int i=1;i<=a;i++){
-            for(int j=a;j>i;j--){
-                printf(" ");
-            }
-            for(int k=1;k<=i;k++){
-                printf("*");
-            }
-            printf("\n");
+    scanf("%i",&a);
+    for(int i=1;i<=0;i++){
+        for(int j=1;j< a -i;k++){
+            printf(" ");
         }
-        return 0;
+        for(int k=1;k<=i;k++){
+        printf(" ");
+        }
+        printf("\n");
     }
+    return 0;
 }
