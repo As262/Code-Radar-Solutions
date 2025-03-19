@@ -7,6 +7,7 @@ int main(){
             printf("%i ",j);
         }
         putchar('\n');
+        a--;
     }
     return 0;
 }
