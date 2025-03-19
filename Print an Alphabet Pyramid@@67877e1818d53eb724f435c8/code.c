@@ -7,7 +7,7 @@ int main(){
             printf(" ");
         }
         for(int k =0;k<=a;k++ )
-        {putchar(65 + j)}
-        
+        {putchar(65 + k)}
+
     }
 }
