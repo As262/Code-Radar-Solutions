@@ -8,7 +8,7 @@ void palindromic_number_triangle(int rows) {
         }
 
         // Print increasing numbers
-        for (int j = 0; j <= i; j++) {
+        for (int j = 1; j <= i; j++) {
             printf("%d ", j);
         }
 
@@ -23,7 +23,6 @@ void palindromic_number_triangle(int rows) {
 
 int main() {
     int rows;
-    printf("Enter the number of rows: ");
     scanf("%d", &rows);
     palindromic_number_triangle(rows);
     return 0;
