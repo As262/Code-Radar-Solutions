@@ -6,7 +6,7 @@ int main(){
         for(int j=0;j<a-i;j++){
             printf(" ");
         }
-        for(int k =0;k<=a;k++ )
+        for(int k =0;k<a;k++ )
         {putchar(65 + k);}
 
     }
