@@ -4,12 +4,12 @@ void palindromic_number_triangle(int rows) {
     for (int i = 1; i <= rows; i++) {
         // Print leading spaces
         for (int j = 1; j <= rows - i; j++) {
-            printf("  ");
+            printf(" ");
         }
 
         // Print increasing numbers
         for (int j = 1; j <= i; j++) {
-            printf("%d", j);
+            printf("%d ", j);
         }
 
         // Print decreasing numbers
