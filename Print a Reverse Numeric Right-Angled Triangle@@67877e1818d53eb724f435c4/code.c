@@ -6,7 +6,7 @@ int main(){
         for(int j=a--;j>0;j--){
             printf("%i ",&a);
         }
-        printf("\n");
+        putchar('\n');
     }
     return 0;
 }
