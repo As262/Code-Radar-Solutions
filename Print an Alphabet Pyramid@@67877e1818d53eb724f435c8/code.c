@@ -8,6 +8,6 @@ int main(){
         }
         for(int k =0;k<i;k++ )
         {putchar(65 + k);}
-
+        printf("\n");
     }
 }
