@@ -5,6 +5,7 @@ int main(){
     while(a>0){
         for(int j=1;j<=a;j++){
             printf("%i ", j);
+            a--;
         }
         putchar('\n');
     }
