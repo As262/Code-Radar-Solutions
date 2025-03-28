@@ -4,9 +4,8 @@ int main(){
     scanf("%i", &a);
     
     for(int i = 1; i <= a; i++){
-        for(int j = 0; j < i; j++){
-            putchar(65 + j );
-            printf(" ");
+        for(int j = 0;j<i;j++){
+            putchar(65 +j);
         }
         printf("\n");
     }
