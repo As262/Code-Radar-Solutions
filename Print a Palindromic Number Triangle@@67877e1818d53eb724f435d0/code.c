@@ -1,29 +1,17 @@
-#include <stdio.h>
-
-void palindromic_number_triangle(int rows) {
-    for (int i = 1; i <= rows; i++) {
-        // Print leading spaces
-        for (int j = 1; j <= rows - i; j++) {
+#include<stdio.h>
+int main(){
+    int a;
+    scanf("%i",&a);
+    for(int i =1;i<=a;i++){
+        for(int j=0;j<=a-i;j++){
             printf(" ");
         }
-
-        // Print increasing numbers
-        for (int j = 1; j <= i; j++) {
-            printf("%d", j);
+        for(int y =1;y<=i;y++){
+            printf("%i",y);
         }
-
-        // Print decreasing numbers
-        for (int j = i - 1; j >= 1; j--) {
-            printf("%d", j);
+        for(int k =i-1;k>=i;j--){
+            printf("%i",k);
         }
-
-        printf("\n"); // Move to the next row
+        printf("\n");
     }
-}
-
-int main() {
-    int rows;
-    scanf("%d", &rows);
-    palindromic_number_triangle(rows);
-    return 0;
 }
