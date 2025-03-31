@@ -1,11 +1,10 @@
 #include<stdio.h>
 int main(){
-    int a,b;
+    int a,m;
     scanf("%i",&a);
-    for(int i=1;i<=10;i++){
-        b = a * i;
-        printf("%i x %i = %i",a,i,b);
+    for(int i=1;i<=a;i++){
+        m = 2 * i;
+        printf("2 x %i = %i",i,m);
         printf("\n");
     }
-    return 0;
 }
