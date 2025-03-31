@@ -1,4 +1,4 @@
-bool isPrime(num){
+void isPrime(num){
     if(num<=1){
         return 0;
     }
