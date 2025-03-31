@@ -6,6 +6,7 @@ int main(){
         int b= i%2;
         for(int j=0;j<=i;j++){
             printf("%i ",b);
+            b=1-b;
         }
         printf("\n");
     }
