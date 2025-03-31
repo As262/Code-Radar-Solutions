@@ -4,7 +4,7 @@ int main(){
     sum=0;
     scanf("%i",&a);
     for(int i =1;i<=a;i++){
-        sum=+i;
+        sum= sum +i;
     }
     printf("%i",sum);
 }
